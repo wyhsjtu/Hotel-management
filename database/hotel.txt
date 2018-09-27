@@ -1,0 +1,205 @@
+#
+# hotel management database file
+#
+[room 101]
+type = dorm # room type (dorm, family, double, single)
+vacant=0 # available beds (0/1->occupied/vacant for other room types)
+visitors=3 # 3 visitors
+name1= John_Lovis # name of visitor 1
+id1= 123456AF # ID number of visitor 1
+arrival1= 11/06/2018 # arrival date of visitor 1
+key1=1 # 1 keys given
+breakfast1=0 # 0 breakfast ordered, can be increased later on
+nights1=1 # number of nights booked, can be increased later on
+price1= 100 # total price, can be adjusted with respect to breakfast and nights
+name2 = Maria_Suza
+id2 = TV98733K
+arrival2= 12/06/2018 # arrival date of visitor 1
+key2=2
+breakfast2=1 # 0 breakfast ordered, can be increased later on
+nights2=2 # number of nights booked, can be increased later on
+price2= 220 # total price, can be adjusted with respect to breakfast and nights
+name3= Eva_Turi
+id3= 00000A
+arrival3= 12/06/2018 # arrival date of visitor 1
+key3=1
+breakfast3=0 # 0 breakfast ordered, can be increased later on
+nights3=1 # number of nights booked, can be increased later on
+price3= 40 # total price, can be adjusted with respect to breakfast and nights
+
+[room 102]
+type = family
+vacant=0
+visitors=3
+
+name1= Justin_Fredman
+id1= 215466
+arrival1= 11/06/2018
+key1=1
+breakfast1=1
+nights1=1
+price1= 120
+
+name2= Christina_May
+id2= 21489346
+arrival2= 11/06/2018
+key2=1
+breakfast2=1
+nights2=1
+price2= 120
+
+name3= Alex_Jame
+id3= 156156651
+arrival3= 11/06/2018
+key3=1
+breakfast3=1
+nights3=1
+price3= 120
+
+[room 103]
+type = double
+vacant=2
+visitors=0
+
+[room 104]
+type = single
+vacant=0
+visitors=1
+
+name1= Jack_Ma
+id1= 2154wdf5
+arrival1= 11/06/2018
+key1=1
+breakfast1=1
+nights1=2
+price1= 420
+
+[room 201]
+type = dorm
+vacant=0
+visitor=3
+
+name1= Edward_Schewz
+id1= 215466
+arrival1= 11/06/2018
+key1=1
+breakfast1=1
+nights1=1
+price1= 120
+
+name2= James_May
+id2= 214wf416
+arrival2= 11/06/2018
+key2=1
+breakfast2=1
+nights2=1
+price2= 120
+
+name3= James_Harden
+id3= 15457sds
+arrival3= 11/06/2018
+key3=1
+breakfast3=1
+nights3=1
+price3= 120
+
+[room 202]
+type = single
+vacant=0
+visitor=1
+
+name1= Edward_Schewz
+id1= 215466
+arrival1= 11/06/2018
+key1=1
+breakfast1=1
+nights1=1
+price1= 220
+
+[room 203]
+type = double
+vacant=0
+visitor=2
+
+name1= Anroid_Back
+id1= 2154se66
+arrival1= 11/06/2018
+key1=1
+breakfast1=1
+nights1=1
+price1= 170
+
+name2= Albert_Jack
+id2= 2141416
+arrival2= 11/06/2018
+key2=2
+breakfast2=1
+nights2=1
+price2= 170
+
+[room 204]
+type = family
+vacant=0
+visitors=3
+
+name1= Abelard_Jack
+id1= 12457896
+arrival1= 11/06/2018
+key1=2
+breakfast1=2
+nights1=3
+price1= 340
+
+name2= Heloise_May
+id2= 21412346
+arrival2= 11/06/2018
+key2=0
+breakfast2=2
+nights2=3
+price2= 340
+
+name3= Heliot_Hitman
+id3= 1452551
+arrival3= 11/06/2018
+key3=1
+breakfast3=2
+nights3=3
+price3= 340
+
+# The rest are for accommodating new people
+
+[room 301]
+type= family
+vacant=2
+visitors=1
+
+name1= Alfrad_Mac
+id1= 12452126
+arrival1= 11/06/2018
+key1=2
+breakfast1=2
+nights1=3
+price1= 340
+
+[room 302]
+type= double
+vacant=1
+visitors=1
+
+name1= Thomas_Hamade
+id1= 21544759
+arrival1= 11/06/2018
+key1=1
+breakfast1=1
+nights1=1
+price1= 170
+
+[room 303]
+type= single
+vacant=1
+visitors=0
+
+[room 304]
+type= dorm
+vacant=3
+visitors=0

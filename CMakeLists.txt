@@ -1,0 +1,11 @@
+cmake_minimum_required(VERSION 3.10)
+project(Proj_2 C)
+
+set(CMAKE_C_STANDARD 11)
+set(CMAKE_C_FLAGS "-Wall -pedantic -Werror -Wno-unused-result -DNDEBUG -std=c11 ")
+add_executable(management hotel-mt.c)
+add_executable(database hotel-db.c)
+add_executable(MAIN hotel-main.c hotel-db.c hotel_db.h hotel-mt.c hotel-mt.h hotel-ll.c hotel-ll.h)
+add_executable(linkedlist hotel-ll.c)
+add_executable(TEST test.c)
+add_executable(Test2 test2.c)

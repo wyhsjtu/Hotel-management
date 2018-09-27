@@ -1,0 +1,68 @@
+[room 101]
+type = 1
+vacant = 0
+visitors = 0
+
+[room 102]
+type = 2
+vacant = 0
+visitors = 0
+
+[room 103]
+type = 3
+vacant = 2
+visitors = 0
+
+[room 104]
+type = 4
+vacant = 0
+visitors = 0
+
+[room 201]
+type = 1
+vacant = 0
+visitors = 0
+
+[room 202]
+type = 4
+vacant = 0
+visitors = 0
+
+[room 203]
+type = 3
+vacant = 0
+visitors = 0
+
+[room 204]
+type = 2
+vacant = 0
+visitors = 1
+
+name1= Heloise_May
+id1= 21412346
+arrival1=12/12/2018
+key1=0
+breakfast1=2
+nights1=0
+price1= 3400
+
+[room 301]
+type = 0
+vacant = 2
+visitors = 0
+
+[room 302]
+type = 0
+vacant = 1
+visitors = 0
+
+[room 303]
+type = 0
+vacant = 1
+visitors = 0
+
+[room 304]
+type = 0
+vacant = 3
+visitors = 0
+
